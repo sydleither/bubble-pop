@@ -7,16 +7,13 @@ public class BubbleDriver extends JPanel{
     static final int frameWidth = 1000;
     static final int frameHeight = 700;
 
-    ArrayList<Bubble> bubbles = new ArrayList<>();
-    int numberOfBubbles = 10;
-    int score = 500;
-
     public BubbleDriver(){
 
     }
 
     public void paintComponent(Graphics g){
-
+        super.paintComponent(g);
+        g.fillOval(50,20,50,30);
     }
 
     public static void main(String[] args){
@@ -29,8 +26,9 @@ public class BubbleDriver extends JPanel{
         frame.setVisible(true);
     }
 
+    /*
     public boolean bubblePopped(int i){
         return mouse.xClick >= bubbles.get(i).x && bubbles.get(i).x+bubbles.get(i).size >= mouse.xClick &&
                 mouse.yClick >= bubbles.get(i).y && bubbles.get(i).y+bubbles.get(i).size >= mouse.yClick;
-    }
+    */
 }
