@@ -8,12 +8,9 @@ public class BubbleDriver extends JPanel{
     static final int frameHeight = 700;
 
     public BubbleDriver(){
-
     }
 
     public void paintComponent(Graphics g){
-        super.paintComponent(g);
-        g.fillOval(50,20,50,30);
     }
 
     public static void main(String[] args){

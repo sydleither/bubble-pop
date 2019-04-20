@@ -9,7 +9,6 @@ public class Bubble{
         this.frameWidth = frameWidth;
         this.frameHeight = frameHeight;
 
-        //play around with changing these values
         x = (int)(Math.random()*(frameWidth-250))+size;
         y = (int)(Math.random()*(frameHeight-250))+size;
         xV = (int)(Math.random()*30-15);
@@ -21,8 +20,6 @@ public class Bubble{
         col = new Color(r,g,b);
     }
 
-    //bounce ball of sides of frame and change direction it moves
     public void move(Graphics g){
-
     }
 }
