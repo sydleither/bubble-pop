@@ -64,7 +64,6 @@ public class BubbleDriver extends JPanel{
 
             //end game unsuccessfully
             if(numberOfBubbles != 0 && score == 1){
-                System.out.println("hey");
                 bubbles.clear();
                 numberOfBubbles = 0;
                 g.setFont(new Font("TimesRoman", Font.PLAIN, 100));

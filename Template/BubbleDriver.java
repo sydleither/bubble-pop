@@ -27,5 +27,6 @@ public class BubbleDriver extends JPanel{
     public boolean bubblePopped(int i){
         return mouse.xClick >= bubbles.get(i).x && bubbles.get(i).x+bubbles.get(i).size >= mouse.xClick &&
                 mouse.yClick >= bubbles.get(i).y && bubbles.get(i).y+bubbles.get(i).size >= mouse.yClick;
+    }
     */
 }
